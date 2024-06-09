@@ -1,0 +1,217 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar {
+    height: 5rem;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.brand-icon {
+    color: #ff385c;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+    font-weight: 500 !important;
+}
+
+footer {
+    position: relative !important;
+    left: 0 !important;
+    bottom: 0px !important;
+    margin-top: 2rem;
+    display: block;
+}
+
+.footer-info {
+    text-align: center;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 8rem;
+    width: 100% !important;
+}
+
+.footer-info a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.footer-info .info-social-links {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+.footer-info .info-social-links i {
+    margin-right: 1rem;
+}
+
+.footer-info .info-social-terms {
+    width: 100%;
+}
+
+.footer-info a:hover {
+    text-decoration: underline;
+}
+
+/* Cards */
+
+
+.row {
+    margin: auto !important;
+}
+
+.homePage {
+    border: none !important;
+    margin: 1rem;
+    /* display: flex; */
+    width: 21rem !important;
+    height: 100% !important;
+}
+
+.homePage a {
+    text-decoration: none;
+    color: #000;
+}
+
+.homePage img {
+    width: 100% !important;
+    height: 20rem;
+    border-radius: 1rem;
+    object-fit: cover !important;
+}
+
+.homePage .card-body {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.homePage .card-body .card-description {
+    color: grey;
+    /* flex-wrap: wrap; */
+    font-weight: 400;
+}
+
+.homePage .card-img-overlay {
+    opacity: 0;
+}
+
+.homePage .card-img-overlay:hover {
+    opacity: 0.1;
+    background-color: white;
+}
+
+/* new.ejs styling */
+
+.newForm,
+.editForm label {
+    font-weight: bolder;
+}
+
+.newForm .insertBtn,
+.editForm .editBtn {
+    background-color: #ff385c;
+    border: none;
+}
+
+/* Common for new and edit page */
+
+.row .address {
+    padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+    .row .country {
+        padding: 0px;
+    }
+}
+
+/* Show Page */
+
+.showPage {
+    margin: auto;
+    border: none !important;
+}
+
+.showPage .show-card-img {
+    height: 70vh;
+    width: 100% !important;
+    border-radius: 1rem;
+    object-fit: cover !important;
+}
+
+.showPage .card-body {
+    font-weight: 600;
+}
+
+.row .buttonForm {
+    display: flex;
+}
+
+.row .buttonForm .edit,
+.row .buttonForm .delete {
+    width: 6rem;
+    background-color: #ff385c;
+    border: none;
+}
+
+.row .buttonForm .editForm {
+    margin-right: 2rem;
+}
+
+#map {
+    width: 100vh;
+    height: 400px;
+}
+
+.explore {
+    color: #333 !important;
+}
+
+#description p {
+    color: #666 !important;
+    line-height: 1.5 !important;
+    margin-bottom: 20px !important;
+}
+
+#testimonials {
+    display: flex !important;
+    justify-content: space-around !important;
+    margin-top: 40px !important;
+}
+
+.testimonial {
+    width: 45% !important;
+    background-color: #fff !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.testimonial img {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50% !important;
+    margin-bottom: 10px !important;
+}
+
+blockquote {
+    font-style: italic !important;
+    margin-bottom: 10px !important;
+}
+
+cite {
+    font-weight: bold !important;
+}
